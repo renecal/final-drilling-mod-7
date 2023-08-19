@@ -1,6 +1,8 @@
 import sequelize from "./app/config/db.config.js";
 import app from "./server.js";
 
+import "./app/models/asociaciones.js";
+
 const main = async () => {
     try {
         await sequelize.authenticate();

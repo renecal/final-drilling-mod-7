@@ -1,4 +1,5 @@
 import { DataTypes } from 'sequelize';
+import sequelize from "../config/db.config.js";
 
 const User = sequelize.define('Users', {
   // Model attributes are defined here
@@ -30,3 +31,5 @@ const User = sequelize.define('Users', {
   timestamps: true
 
 });
+
+export default User;

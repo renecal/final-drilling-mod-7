@@ -1,4 +1,5 @@
 import { DataTypes } from 'sequelize';
+import sequelize from "../config/db.config.js";
 
 const Bootcamp = sequelize.define('Bootcamp', {
   // Model attributes are defined here
@@ -30,3 +31,6 @@ const Bootcamp = sequelize.define('Bootcamp', {
   timestamps: false
 
 });
+
+
+export default Bootcamp;
