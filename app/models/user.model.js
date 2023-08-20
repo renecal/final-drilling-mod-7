@@ -1,13 +1,13 @@
 import { DataTypes } from 'sequelize';
 import sequelize from "../config/db.config.js";
 
-const User = sequelize.define('Users', {
+const User = sequelize.define("User", {
   // Model attributes are defined here
   firstName: {
     type: DataTypes.STRING(50),
     allowNull: false,
     validate: {
-        notEmpty: true,
+        notEmpty: false,
     }
   },
   lastName: {
@@ -27,7 +27,7 @@ const User = sequelize.define('Users', {
   }
 }, {
   // Other model options go here
-  tableName: 'users',  
+  tableName: "users",  
   timestamps: true
 
 });

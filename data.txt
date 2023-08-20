@@ -7,7 +7,7 @@
 	"firstName" : "Santiago",
 	"lastName" : "Mejías",
 	"email" : "santiago.mejias@correo.com"
-},
+}
 
 {
 	"firstName" : "Lucas",
@@ -37,5 +37,34 @@
 {
 	"title" : "Bootcamp Big Data, Inteligencia Artificial & Machine Learning.",
 	"cue" :"18",
-	"description" : "Domina Data Science, y todo el ecosistema de lenguajes y herramientas de Big Data, e intégralos con modelos avanzados"
+	"description" : "Domina Data Science, y todo el ecosistema de lenguajes y herramientas de Big Data, e intégralos con modelos avanzados de Artificial Intelligence y Machine Learning."
+}
+
+{
+	"bootcampId" : 1,
+	"userId" : 1
+}
+
+{
+	"bootcampId" : 1,
+	"userId" : 2
+}
+
+{
+	"bootcampId" : 2,
+	"userId" : 1
+}
+
+{
+	"bootcampId" : 3,
+	"userId" : 1
+}
+
+{
+	"bootcampId" : 3,
+	"userId" : 2
+}
+{
+	"bootcampId" : 3,
+	"userId" : 3
 }

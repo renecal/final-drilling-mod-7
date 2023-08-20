@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import sequelize from "../config/db.config.js";
 
-const Bootcamp = sequelize.define('Bootcamp', {
+const Bootcamp = sequelize.define("Bootcamp", {
   // Model attributes are defined here
   title: {
     type: DataTypes.STRING(150),
@@ -26,8 +26,8 @@ const Bootcamp = sequelize.define('Bootcamp', {
   }
 }, {
   // Other model options go here
-  tableName: 'bootcamps',  
-  timestamps: false
+  tableName: "bootcamps",  
+  timestamps: true
 
 });
 
